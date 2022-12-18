@@ -94,6 +94,10 @@ body{
     color: var(--dark-grey)
 }
 
+.heading-inverted{
+    color: var(--primary-color);
+}
+
 
 /** Sections **/
 section{
