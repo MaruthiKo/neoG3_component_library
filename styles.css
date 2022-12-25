@@ -19,14 +19,16 @@ body{
 
 .container-center{
     max-width: 600px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 /** Links **/
 .link{
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.6rem 1rem;
 }
+
+
 
 .link-primary{
     background-color: var(--primary-color);
@@ -34,10 +36,22 @@ body{
     color: white;
 }
 
+.link-primary:hover{
+    background-color: white;
+    color:var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
 .link-secondary{
     color:var(--primary-color);
     border-radius: 0.5rem;
-    border: 1px solid var(--primary-color)
+    border: 1px solid var(--primary-color);
+}
+
+.link-secondary:hover{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
 }
 
 /** lists **/
@@ -80,6 +94,7 @@ body{
 
 .hero{
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img{
@@ -98,6 +113,11 @@ body{
     color: var(--primary-color);
 }
 
+
+/** spaces **/
+.margin-md{
+    margin: 2rem;
+}
 
 /** Sections **/
 section{
@@ -128,6 +148,18 @@ footer .link{
     color: white;
 }
 
+footer .link:hover{
+    color: black;    
+}
 footer ul{
     padding-inline-start: 0px;
+}
+
+.footer-header{
+    color: rgba(0,0,0,.8);
+}
+
+.center{
+    text-align: center;
+    display: block;
 }
